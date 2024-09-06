@@ -1,0 +1,266 @@
+<!-- Go to this github repo  https://github.com/ashiksanyo10/Port_Temp.git and clone it to your local machine -->
+<!-- Open the local copy of code and edit the templete -->
+
+
+<!-- Dont alter any tags, fill in you information on required field only and dont alter style.css and javascript file-->
+<!-- once editing the templete, Create a github repo and push the code-->
+<!-- you can host the website on gitpages or netlify  -->
+<!---->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Adithya Ajith</title>    <!-- Change it your name  --> .
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="www.linkedin.com/in/adithya-ajith-kerala" class="link"  
+          >{AA}. <!--insert your initials here --></a
+        >
+      </h3> <!--use the linkedIn or any link in above href-->
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Internship">Internship</a>
+          </li>
+          <!--   <li class="nav__list-item">
+            <a class="link link--nav" href="#Exp">Experience</a>
+          </li>-->
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Adithya Ajith.</span></h1>
+        <h2 class="about__role">Aspiring Data Scientist</h2>
+        <p class="about__desc"> <!-- Edit the About make sure you add your degree!-->
+          I am a final-year Bachelor of Computer Applications (BCA) student at Christ University, Bangalore, with a strong interest in data science, data analysis, and web development. 
+          Currently, I am a data science trainee at Bulerez Consulting, where I enjoy analyzing data and conducting exploratory data analysis (EDA). 
+          As I build a solid foundation in machine learning, I am eager to deepen my knowledge in the field. 
+          I have also had the opportunity to fast-track my final semester. 
+          I am actively seeking an internship in my preferred fields, starting from November, for a period of up to six months.
+        </p> <!-- about you -->
+        <br>
+        <a href="mailto:ashiksanyo01@gmail.com">Mail: adithya.ajith2022@gmail.com </a><p> Contact: +91 8281036543</p>  <!--Change it to your mail id and contact no-->
+      </br>
+      
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1tHcbs9LZeAg4cC1KBUUqyjCMsKQveEzA/view?usp=sharing" target="_blank"  > <!-- drive link for resume-->
+            <span class="btn btn--outline">Resume</span> 
+          </a>
+
+          <a
+            href="https://github.com/adithyaajith2001" target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a> <!-- Github profile Link-->
+
+          <a
+            href="https://linkedin.com/in/ashiksanyo" target="_blank"  
+            aria-label="linkedin"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a> <!-- LinledIn profile Link-->
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Walmart Data Analysis</h3> <!--Peoject Title -->
+            <p class="project__description">
+              To understand and analyze the spending habits between male and female customers.
+              This will help the business make better decisions.
+
+            </p> <!--Project description-->
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Excel</li>
+              <li class="project__stack-item">CSV</li>
+              <li class="project__stack-item">Seaborn</li>
+              <li class="project__stack-item">plotly</li>
+              <li class="project__stack-item">MatplotLib</li>
+            </ul>
+
+            <a
+              href="https://github.com/adithyaajith2001/Data-Science-/tree/97e157fe3b83f12465898ec67895ef375818c703/Walmart%20Data%20Analysis" target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >  <!--Project link-->
+
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Efficiency Prediction</h3>
+            <p class="project__description">
+              To classify the devices into "Efficient" and "Inefficient" categories based on various features
+              .This can optimize device performance and improve user satisfaction
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Decision Tree Algorithm Model</li>
+              <li class="project__stack-item">Seaborn</li>
+              <li class="project__stack-item">Pyplot</li>
+              <li class="project__stack-item">Graphviz</li>
+              <li class="project__stack-item">sklearn</li>
+              <li class="project__stack-item">GridSearchCV</li>
+
+            </ul>
+
+            <a
+              href="https://github.com/adithyaajith2001/Data-Science-/tree/97e157fe3b83f12465898ec67895ef375818c703/Smart%20Home%20Device%20Efficiency%20Prediction" target="_blank"
+              aria-label="https://github.com/adithyaajith2001/Data-Science-/tree/97e157fe3b83f12465898ec67895ef375818c703/Smart%20Home%20Device%20Efficiency%20Prediction" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>DevMatrix</h3>
+            <p class="project__description">
+              Developed Frontend for DevMatrix.The project focuses on the Web developers and makes it easy for them to speed up the process
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/Hasib072/DevMatrix.git" target="_blank"
+              aria-label="https://github.com/Hasib072/DevMatrix.git" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+           
+          </div>
+        </div>
+      </section>
+
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Internships & Certifications</h2>
+
+      <div class="project">
+        <h3>Bulerez Consulting</h3>
+        <p class="project__description">
+         Learning Machine Learning models and developing Analytical Skills
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Python</li>
+          <li class="project__stack-item">EDA</li>
+          <li class="project__stack-item">Machine Learning</li>
+          <li class="project__stack-item">BigQuery</li>
+
+        </ul>
+
+        <a
+          href="https://github.com/adithyaajith2001/Data-Science-.git"  
+          aria-label="https://github.com/adithyaajith2001/Data-Science-.git" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a> 
+      </div>
+      <div class="certifications">
+        <h3>Certifications</h3>
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1t0JaVn2Yd74E8wP0QqiAzRVSyMFLSR-V/view?usp=sharing" target="_blank">AWS Academy Cloud foundation</a></li>
+          <li><a href="https://drive.google.com/file/d/1Pu2OS_aXS-AhA2djYVVrP7_8WKol4AmL/view?usp=sharing" target="_blank">Computational Neuroscience</a></li>
+          <li><a href="https://drive.google.com/file/d/12zQlqUad7gdT52qOrFND4j_uTaL9aIpK/view?usp=sharing" target="_blank">OpenWeaver Makeathon</a></li>
+        </ul>
+      </div>
+  </section>
+
+ <!-- duplicate the above section and you can change it to paper or experience-->
+
+      
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>                        <!--You can fill in the elective course and you can remove extras-->
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Machine Learning</li>
+          <li class="skills__list-item btn btn--plain">MongoDB</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">PowerBI</li>
+          <li class="skills__list-item btn btn--plain"> AWS Cloud Basics</li>
+
+
+
+
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a
+        href="" 
+        class="link footer__link"
+      >  
+        Created By Adithya Ajith! <!-- edit it to your name -->
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
